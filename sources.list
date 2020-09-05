@@ -1,0 +1,34 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux 10.4.0 _Buster_ - Official amd64 NETINST 20200509-10:25]/ buster main non-free
+
+# deb cdrom:[Debian GNU/Linux 10.4.0 _Buster_ - Official amd64 NETINST 20200509-10:25]/ buster main non-free
+
+deb http://deb.debian.org/debian/ buster-backports main contrib non-free
+deb-src http://deb.debian.org/debian/ buster-backports main contrib non-free
+
+deb http://deb.debian.org/debian/ buster contrib main non-free
+deb-src http://deb.debian.org/debian/ buster main contrib non-free
+
+deb http://security.debian.org/debian-security buster/updates main non-free
+deb-src http://security.debian.org/debian-security buster/updates main non-free
+
+# buster-updates, previously known as 'volatile'
+deb http://deb.debian.org/debian/ buster-updates main non-free
+deb-src http://deb.debian.org/debian/ buster-updates main non-free
+
+# old stable repositories
+deb http://deb.debian.org/debian/ oldstable main contrib non-free
+deb-src http://deb.debian.org/debian/ oldstable main contrib non-free
+
+
+# This system was installed using small removable media
+# (e.g. netinst, live or single CD). The matching "deb cdrom"
+# entries were disabled at the end of the installation process.
+# For information about how to configure apt package sources,
+# see the sources.list(5) manual.
+deb [arch=amd64] https://download.docker.com/linux/debian buster stable
+# deb-src [arch=amd64] https://download.docker.com/linux/debian buster stable
+
+deb http://ftp.debian.org/debian stretch-backports main
+deb-src http://ftp.debian.org/debian stretch-backports main
